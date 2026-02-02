@@ -5,10 +5,34 @@ https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data
 https://www.kaggle.com/datasets/vrindakallu/new-york-dataset
 https://www.kaggle.com/datasets/dataembassy/nyc-borough-boundaries
 
-The initial steps for the project was to import my libraries and data set into jupyter notebook as most of my analysis would be done in python. I did a quick overview in microsoft word just to familiarize myself with the data set. 
+Datasets:
+  NYC Airbnb Open Data 2019
+  NYC Airbnb Open Data 2024
 
-After this I noticed the 2019 data set was not a clean data set. I removed columns last_review and reviews_per_month as they had 10k plus nulls values each. Then removed the remaining null rows. 
+Data sets include information such as:
+  Listing price
+  Room type
+  Availability
+  Number of reviews
+  neighborhood and borough
 
-I then mapped the data and did several different charts to explore the data.
+A NYC neighborhood boundry map was used for mapping and analysis.
 
-After seeing the differences from the 2019 to 2024 data I made several different conclusions and put together my finding to present to stakeholders.
+Key Questions Explored:
+  How did the number of Airbnb listings change from 2019 to 2024?
+  How has the pricing changed across the boroughs?
+  Which neighborhoods had the largest change in listings and cost?
+  How did availability change over time?
+
+Tools Used: 
+  Microsoft Excel
+  Python 
+    Pandas
+    Numpy
+    Matplotlib
+    Seaborn
+    GeoPandas
+  NYC neighborhood shapefiles
+    
+
+
